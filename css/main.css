@@ -50,8 +50,7 @@
   color: var(--title-text-color);
 }
 
-.site-nav .site-nav__link:hover,
-.site-nav .site-nav__link:focus {
+.site-nav .site-nav__link:hover, .site-nav .site-nav__link:focus {
   color: var(--accent-color);
 }
 
@@ -146,8 +145,7 @@
   fill: #757575;
 }
 
-.head-contacts__link:hover,
-.head-contacts__link:focus {
+.head-contacts__link:hover, .head-contacts__link:focus {
   fill: var(--accent-color);
   color: var(--accent-color);
 }
@@ -158,13 +156,11 @@
   letter-spacing: 0.02em;
 }
 
-/* Герой */
 .section-hero {
   text-align: center;
-  padding: 200px 0;
+  padding-top: 200px;
 }
 
-/* фоновая картинка героя */
 .overlay {
   background-color: #757575;
   max-width: 1600px;
@@ -383,8 +379,7 @@
   border-radius: 50%;
 }
 
-.comand-network__link:hover,
-.comand-network__link:focus {
+.comand-network__link:hover, .comand-network__link:focus {
   background-color: var(--accent-color);
   fill: var(--h1-text-color);
 }
@@ -432,8 +427,7 @@
   border-radius: 4px;
 }
 
-.section-clients__link:hover,
-.section-clients__link:focus {
+.section-clients__link:hover, .section-clients__link:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -657,8 +651,7 @@
   padding: 6px 22px;
 }
 
-.portfolio-button__button:hover,
-.portfolio-button__button:focus {
+.portfolio-button__button:hover, .portfolio-button__button:focus {
   color: #ffffff;
   background-color: #2196f3;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -797,7 +790,7 @@
   right: 8px;
 }
 
-.btn-clouse-icon:hover {
+.btn-clouse:hover {
   fill: var(--accent-color);
 }
 
@@ -844,7 +837,6 @@
   outline: none;
 }
 
-.form-coments:focus,
 .form-input:focus {
   border: 1px solid #2196f3;
 }
@@ -872,6 +864,7 @@
 }
 
 .form-coments:focus {
+  border: 1px solid #2196f3;
   border: 1px solid #2196f3;
 }
 
@@ -1001,7 +994,7 @@ a:hover {
 /* цвет героя #2F303A */
 /* фон секции уоманда #f5f4fa */
 body {
-  color: #757575;
+  color: var(--primary-text-color);
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -1011,8 +1004,7 @@ body {
 .section-title,
 .section-comand__title,
 .section-skils__title,
-.img-title,
-.pic-title,
+.portfolio-cart__title,
 .section-clients__title {
   color: var(--title-text-color);
 }

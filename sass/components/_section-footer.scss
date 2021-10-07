@@ -14,10 +14,9 @@
   color: var(--h1-text-color);
 
   display: inline-block;
-}
-
-.section-footer__logo:hover {
-  color: var(--accent-color);
+  &:hover {
+    color: var(--accent-color);
+  }
 }
 
 .section-footer__color {
@@ -100,8 +99,7 @@
   border-radius: 50%;
 
   fill: rgba(255, 255, 255, 0.1);
-}
-
-.footer-network__link:hover {
-  background-color: var(--accent-color);
+  &:hover {
+    background-color: var(--accent-color);
+  }
 }

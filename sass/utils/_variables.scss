@@ -24,10 +24,9 @@ img {
 a {
   text-decoration: none;
   color: var(--primary-text-color);
-}
-
-a:hover {
-  color: var(--accent-color);
+  &:hover {
+    color: var(--accent-color);
+  }
 }
 
 :root {
@@ -54,7 +53,7 @@ a:hover {
 /* фон секции уоманда #f5f4fa */
 
 body {
-  color: #757575;
+  color: var(--primary-text-color);
   background-color: #ffffff;
 
   font-family: "Roboto", sans-serif;
@@ -65,8 +64,7 @@ body {
 .section-title,
 .section-comand__title,
 .section-skils__title,
-.img-title,
-.pic-title,
+.portfolio-cart__title,
 .section-clients__title {
   color: var(--title-text-color);
 }

@@ -40,11 +40,10 @@
 
 .site-nav .site-nav__link {
   color: var(--title-text-color);
-}
-
-.site-nav .site-nav__link:hover,
-.site-nav .site-nav__link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .site-nav .current {
@@ -132,12 +131,11 @@
   display: flex;
   align-items: center;
   fill: #757575;
-}
-
-.head-contacts__link:hover,
-.head-contacts__link:focus {
-  fill: var(--accent-color);
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    color: var(--accent-color);
+  }
 }
 
 .tel {

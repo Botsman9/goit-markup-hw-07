@@ -74,10 +74,9 @@
   height: 44px;
   fill: #afb1b8;
   border-radius: 50%;
-}
-
-.comand-network__link:hover,
-.comand-network__link:focus {
-  background-color: var(--accent-color);
-  fill: var(--h1-text-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: var(--h1-text-color);
+  }
 }

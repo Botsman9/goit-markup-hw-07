@@ -39,14 +39,14 @@
   box-sizing: border-box;
   border-radius: 4px;
   outline: none;
+  &:focus {
+    border: 1px solid #2196f3;
+  }
+  &:focus + .form-icon {
+    fill: var(--accent-color);
+  }
 }
-.form-coments:focus,
-.form-input:focus {
-  border: 1px solid #2196f3;
-}
-.form-input:focus + .form-icon {
-  fill: var(--accent-color);
-}
+
 .form-coments {
   font-style: normal;
   font-weight: 400;
@@ -65,9 +65,10 @@
   border-radius: 4px;
   outline: none;
   resize: none;
-}
-.form-coments:focus {
-  border: 1px solid #2196f3;
+  &:focus {
+    border: 1px solid #2196f3;
+    border: 1px solid #2196f3;
+  }
 }
 
 .form-icon {

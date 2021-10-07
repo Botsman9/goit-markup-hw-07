@@ -43,10 +43,9 @@
   position: absolute;
   top: 8px;
   right: 8px;
-}
-
-.btn-clouse-icon:hover {
-  fill: var(--accent-color);
+  &:hover {
+    fill: var(--accent-color);
+  }
 }
 
 .is-hidden {

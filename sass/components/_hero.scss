@@ -45,8 +45,7 @@
   margin-top: 30px;
 
   display: inline-block;
-}
-
-.section-hero__button:hover {
-  background-color: #188ce8;
+  &:hover {
+    background-color: #188ce8;
+  }
 }
